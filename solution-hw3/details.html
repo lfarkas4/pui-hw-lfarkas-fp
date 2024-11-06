@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script> <!-- Ensure this points to your app.js -->
+</head>
+<body>
+  
+  <!-- Navigation Section -->
+  <div class="navbar">
+    <a href="gallery.html" class="nav-item">
+      <p class="station"><mark>PRODUCTS</mark></p>
+    </a>
+    <a href="cart.html" class="nav-item">
+      <p class="nav">CART</p>
+    </a>
+  </div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <a href="gallery.html" class="logo-link">
+      <img src="../assets/logo/logo-01.svg" alt="Logo" class="logo">
+    </a>
+    <!-- Horizontal Line Break -->
+    <div class="line"></div>
+  </header>
+
+  <!-- Main Heading -->
+  <h2 class="center">Original Cinnamon Roll</h2>
+
+  <!-- Product Detail Section -->
+  <div class="product-detail">
+    <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="detailimg">
+
+    <div class="product-info">
+      <p>Customize our delicious, hand-made cinnamon roll to your liking!</p>
+      <br>
+
+      <!-- Glazing Options -->
+      <div class="option-group">
+        <label for="glazing">Glazing:</label>
+        <select name="glazing" id="glazing">
+          <!-- options populated dynamically -->
+        </select>
+      </div>
+
+      <!-- Pack Size Options -->
+      <div class="option-group">
+        <label for="pack-size">Pack size:</label>
+        <select name="pack-size" id="pack-size">
+          <!-- options populated dynamically -->
+        </select>
+      </div>
+
+      <br>
+      <br>
+
+      <!-- Pricing and Checkout Button -->
+      <div class="deckout">
+        <p class="price" id="price">$2.49</p>
+        <button class="button1">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
+
+<!-- 
+Help and resources for this page were sourced from W3Schools and HubSpot. 
+-->

@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo {
+    width: 400px;
+}
+
+.cartimg {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.galimg {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.detailimg {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 23px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color: #000000;
+}
+
+.remove {
+    font-size: 13px;
+}
+
+.nav {
+    font-size: 22px;
+}
+
+.nav:hover {
+    font-weight: bold;
+}
+
+.station {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.checkout {
+    border: 2px solid #000000;
+    width: fit-content;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button1:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.deckout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.deckout p {
+    margin-right: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.highlight:hover {
+    background-color: yellow;
+}
+
+.highlight:hover .bold{
+    font-weight: bold;
+}
+
+.highlight {
+    padding: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+  Help and resources for this stylesheet were sourced from W3Schools and HubSpot.
+*/

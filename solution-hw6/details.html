@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <script defer src="rollsData.js"></script>
+</head>
+<body>
+  
+  <!-- Navigation Section -->
+  <div class="navbar">
+    <a href="gallery.html" class="nav-item">
+      <p class="station"><mark>PRODUCTS</mark></p>
+    </a>
+    <a href="cart.html" class="nav-item">
+      <p class="nav">CART</p>
+    </a>
+  </div>
+
+  <!-- Header Section -->
+  <header class="header">
+    <a href="gallery.html" class="logo-link">
+      <img src="../assets/logo/logo-01.svg" alt="Logo" class="logo">
+    </a>
+    <!-- Horizontal Line Break -->
+    <div class="line"></div>
+  </header>
+
+  <!-- Main Heading -->
+  <h2 class="center" id="product-heading">Product</h2>
+
+  <!-- Product Detail Section -->
+  <div class="product-detail">
+    <img id="product-image" src="path/to/default/image.jpg" alt="product-image" class="detailimg">
+
+    <div class="product-info">
+      <p id="product-description">Description</p>
+      <br>
+
+      <!-- Glazing Options -->
+      <div class="option-group">
+        <label for="glazing">Glazing:</label>
+        <select name="glazing" id="glazing">
+        </select>
+      </div>
+
+      <!-- Pack Size Options -->
+      <div class="option-group">
+        <label for="pack-size">Pack size:</label>
+        <select name="pack-size" id="pack-size">
+        </select>
+      </div>
+      <br>
+      <br>
+      <!-- Pricing and Checkout Button -->
+      <div class="deckout">
+        <p class="price" id="price">$0.00</p>
+        <button class="button1" id="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const productImage = document.getElementById("product-image");
+      
+      const productData = {
+        image: "path/to/product/image.jpg",
+        description: "Your product description",
+        price: "$0.00"
+      };
+      
+      productImage.src = productData.image;
+      document.getElementById("product-description").textContent = productData.description;
+      document.getElementById("price").textContent = productData.price;
+    });
+  </script>
+</body>
+</html>
+
+<!-- 
+Help and resources for this page were sourced from W3Schools and HubSpot. 
+-->

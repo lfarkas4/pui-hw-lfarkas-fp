@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 400px;
+    display: block;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 4px solid #000;
+}
+
+.cartimg, .product-image-cart {
+    width: 200px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.galimg {
+    width: 285px;
+    height: 285px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.detailimg {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin-right: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 23px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+hr {
+    height: 2px;
+    background-color: #000000;
+}
+
+.remove-cart, .remove {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 22px;
+}
+
+.nav:hover {
+    font-weight: bold;
+}
+
+.station {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.checkout {
+    border: 2px solid #000000;
+    width: fit-content;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button1:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.product-detail {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.product-info p {
+    margin-bottom: 10px;
+}
+
+.product-info select {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.option-group {
+    margin-bottom: 20px;
+}
+
+.option-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.deckout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item {
+    color: black; 
+}
+
+.deckout p {
+    margin-right: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.container p {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.row-cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-bottom: 10px;
+}
+
+.column-cart-1, .column.cart {
+    flex: 1 1 30%;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cart-text {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.highlight:hover {
+    background-color: yellow;
+}
+
+.highlight:hover .bold {
+    font-weight: bold;
+}
+
+.highlight {
+    padding: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.parent {
+    width: 60%;
+    margin: 20px auto;
+}
+
+
+/*
+  Help and resources for this stylesheet were sourced from W3Schools and HubSpot.
+*/
+
